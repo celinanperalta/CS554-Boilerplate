@@ -1,0 +1,25 @@
+{
+    "env": {
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "es2021": true
+    },
+    "extends": [
+        "standard",
+        "prettier",
+        "plugin:json/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2020
+    },
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+    "rules": {
+        "indent": ["error", 4],
+        "semi": 0,
+        "array-callback-return" : "off"
+    }
+}

@@ -1,0 +1,22 @@
+@import "./src/styles/bootstrap/scss/bootstrap";
+$body-background: white;
+$primary-font-size: 14pt;
+$secondary-font-size: $primary-font-size / 2.5pt;
+$main-content-class: "card";
+
+$brand-primary: #008a00; // #337ab7
+$brand-success: #008a00 !default;
+$brand-info: #5bc0de !default;
+$brand-warning: #f0ad4e !default;
+$brand-danger: #d9534f !default;
+
+$theme-colors: (
+  "primary": #008a00
+);
+
+$active-bg-color: #727373;    
+
+$navbar-light-color: rgba($black, .7);
+$navbar-light-active-color: rgba($black, .8);
+$navbar-light-hover-color: rgba($black, .9); 
+
